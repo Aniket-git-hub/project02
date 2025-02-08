@@ -1,13 +1,12 @@
 // app/page.js
 
-import SearchComponent from './components/search/SearchComponent'
 import AIPowerSection from './components/AICapsLanding/AIPowerSection'
 import TechnologySection from './components/landing/TechnologySection'
-import PressReleases from './components/PressReleases'
-import VideoHero from './components/VideoHero'
-import ExploreSection from './components/ExploreSection'
 import OurScience from './components/OurScience'
+import PressReleases from './components/PressReleases'
+import SearchComponent from './components/search/SearchComponent'
 import StatsSection from './components/StatsSection'
+import VideoHero from './components/VideoHero'
 
 export default function Home() {
   return (
@@ -16,7 +15,7 @@ export default function Home() {
       <AIPowerSection />
       <TechnologySection />
       <VideoHero />
-      <ExploreSection />
+      {/* <ExploreSection /> */}
       <OurScience />
       <StatsSection />
       <PressReleases />
